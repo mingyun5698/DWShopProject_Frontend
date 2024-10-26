@@ -1,0 +1,74 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html, body {
+  overflow: auto;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll; /* 항상 세로 스크롤바를 표시 */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.App {
+  
+  flex-direction: column; /* 자식 요소들을 세로로 정렬 */
+  width: 100%;
+  height: 100%; /* 화면의 전체 높이 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 모든 자식 요소들 */
+.App > * {
+  width: 100%; /* 부모 요소의 너비를 상속받지 않으므로 명시적으로 설정 */
+  box-sizing: border-box; /* padding과 border를 너비에 포함 */
+  
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+
